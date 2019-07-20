@@ -57,9 +57,7 @@
 
             <li class="divider"></li>
 
-            <li class="nav-item nav-dropdown {{
-                active_class(Active::checkUriPattern('admin/log-viewer*'), 'open')
-            }}">
+            <li class="nav-item nav-dropdown {{active_class(Active::checkUriPattern('admin/log-viewer*'), 'open')}}">
                 <a class="nav-link nav-dropdown-toggle {{
                     active_class(Active::checkUriPattern('admin/log-viewer*'))
                 }}" href="#">
