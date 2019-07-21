@@ -1,39 +1,39 @@
 
-{{--<body class="{{ config('backend.body_classes') }}">--}}
-{{--    @include('backend.includes.header')--}}
+<body class="{{ config('backend.body_classes') }}">
+    @include('backend.includes.header')
 
-{{--    <div class="app-body">--}}
-{{--        @include('backend.includes.sidebar')--}}
+    <div class="app-body">
+        @include('backend.includes.sidebar')
 
-{{--        <main class="main">--}}
-{{--            @include('includes.partials.logged-in-as')--}}
-{{--            {!! Breadcrumbs::render() !!}--}}
+        <main class="main">
+            @include('includes.partials.logged-in-as')
+            {!! Breadcrumbs::render() !!}
 
-{{--            <div class="container-fluid">--}}
-{{--                <div class="animated fadeIn">--}}
-{{--                    <div class="content-header">--}}
-{{--                        @yield('page-header')--}}
-{{--                    </div><!--content-header-->--}}
+            <div class="container-fluid">
+                <div class="animated fadeIn">
+                    <div class="content-header">
+                        @yield('page-header')
+                    </div><!--content-header-->
 
-{{--                    @include('includes.partials.messages')--}}
-{{--                    @yield('content')--}}
-{{--                </div><!--animated-->--}}
-{{--            </div><!--container-fluid-->--}}
-{{--        </main><!--main-->--}}
+                    @include('includes.partials.messages')
+                    @yield('content')
+                </div><!--animated-->
+            </div><!--container-fluid-->
+        </main><!--main-->
 
-{{--        @include('backend.includes.aside')--}}
-{{--    </div><!--app-body-->--}}
+        @include('backend.includes.aside')
+    </div><!--app-body-->
 
-{{--    @include('backend.includes.footer')--}}
+    @include('backend.includes.footer')
 
-{{--    <!-- Scripts -->--}}
-{{--    @stack('before-scripts')--}}
-{{--    {!! script(mix('js/manifest.js')) !!}--}}
-{{--    {!! script(mix('js/vendor.js')) !!}--}}
-{{--    {!! script(mix('js/backend.js')) !!}--}}
-{{--    @stack('after-scripts')--}}
-{{--</body>--}}
-
+    <!-- Scripts -->
+    @stack('before-scripts')
+    {!! script(mix('js/manifest.js')) !!}
+    {!! script(mix('js/vendor.js')) !!}
+    {!! script(mix('js/backend.js')) !!}
+    @stack('after-scripts')
+</body>
+</html>
 <!DOCTYPE html>
 @langrtl
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}" dir="rtl">
@@ -83,7 +83,7 @@
         <div id="main-menu" class="main-menu collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 <li class="active">
-                    <a href="{{ route('admin.dashboard') }}"> <i class="menu-icon fa fa-dashboard"></i>Dashboard </a>
+                    <a href="index.html"> <i class="menu-icon fa fa-dashboard"></i>Dashboard </a>
                 </li>
                 <h3 class="menu-title">UI elements</h3><!-- /.menu-title -->
                 <li class="menu-item-has-children dropdown">
