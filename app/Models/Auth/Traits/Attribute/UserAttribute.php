@@ -128,7 +128,7 @@ trait UserAttribute
             $accounts[] = '<a href="'.route(
                 'admin.auth.user.social.unlink',
                 [$this, $social]
-            ).'" data-toggle="tooltip" data-placement="top" title="'.__('buttons.backend.access.users.unlink').'" data-method="delete"><i class="fab fa-'.$social->provider.'"></i></a>';
+            ).'" data-toggle="tooltip" data-placement="top" title="'.__('buttons.backend.access.users.unlink').'" data-method="delete"><i class="fa fa-'.$social->provider.'"></i></a>';
         }
 
         return \count($accounts) ? implode(' ', $accounts) : __('labels.general.none');
@@ -174,7 +174,7 @@ trait UserAttribute
      */
     public function getShowButtonAttribute()
     {
-        return '<a href="'.route('admin.auth.user.show', $this).'" data-toggle="tooltip" data-placement="top" title="'.__('buttons.general.crud.view').'" class="btn btn-info"><i class="fas fa-eye"></i></a>';
+        return '<a href="'.route('admin.auth.user.show', $this).'" data-toggle="tooltip" data-placement="top" title="'.__('buttons.general.crud.view').'" class="btn btn-info"><i class="fa fa-eye"></i></a>';
     }
 
     /**
@@ -182,7 +182,7 @@ trait UserAttribute
      */
     public function getEditButtonAttribute()
     {
-        return '<a href="'.route('admin.auth.user.edit', $this).'" data-toggle="tooltip" data-placement="top" title="'.__('buttons.general.crud.edit').'" class="btn btn-primary"><i class="fas fa-edit"></i></a>';
+        return '<a href="'.route('admin.auth.user.edit', $this).'" data-toggle="tooltip" data-placement="top" title="'.__('buttons.general.crud.edit').'" class="btn btn-primary"><i class="fa fa-edit"></i></a>';
     }
 
     /**
@@ -254,7 +254,7 @@ trait UserAttribute
      */
     public function getDeletePermanentlyButtonAttribute()
     {
-        return '<a href="'.route('admin.auth.user.delete-permanently', $this).'" name="confirm_item" class="btn btn-danger"><i class="fas fa-trash" data-toggle="tooltip" data-placement="top" title="'.__('buttons.backend.access.users.delete_permanently').'"></i></a> ';
+        return '<a href="'.route('admin.auth.user.delete-permanently', $this).'" name="confirm_item" class="btn btn-danger"><i class="fa fa-trash" data-toggle="tooltip" data-placement="top" title="'.__('buttons.backend.access.users.delete_permanently').'"></i></a> ';
     }
 
     /**
@@ -262,7 +262,7 @@ trait UserAttribute
      */
     public function getRestoreButtonAttribute()
     {
-        return '<a href="'.route('admin.auth.user.restore', $this).'" name="confirm_item" class="btn btn-info"><i class="fas fa-sync" data-toggle="tooltip" data-placement="top" title="'.__('buttons.backend.access.users.restore_user').'"></i></a> ';
+        return '<a href="'.route('admin.auth.user.restore', $this).'" name="confirm_item" class="btn btn-info"><i class="fa fa-sync" data-toggle="tooltip" data-placement="top" title="'.__('buttons.backend.access.users.restore_user').'"></i></a> ';
     }
 
     /**
