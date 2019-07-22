@@ -7,8 +7,7 @@
 @endsection
 
 @section('content')
-<div class="card">
-    <div class="card-body">
+
         <div class="row">
             <div class="col-sm-5">
                 <h4 class="card-title mb-0">
@@ -70,6 +69,5 @@
                 </div>
             </div><!--col-->
         </div><!--row-->
-    </div><!--card-body-->
-</div><!--card-->
+
 @endsection

@@ -1143,10 +1143,12 @@ aside.left-panel {
     padding: 0;
     position: absolute;
     left: 0;
-    font-size: 14px;
+    font-size: 12px;
     top: 9px; }
 .navbar .navbar-nav li.menu-item-has-children .sub-menu a {
-    padding: 2px 0 2px 30px; }
+    padding: 2px 0 2px 30px;
+    font-size: 12px;
+}
 .navbar .navbar-nav li.menu-item-has-children .sub-menu a:before {
     content: '';
     display: none; }
