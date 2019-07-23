@@ -5,9 +5,10 @@
  */
 
 // Loaded before CoreUI app.js
+
 import '../bootstrap';
-import 'pace';
-import '../plugins';
+// import 'pace';
+// import '../plugins';
 
 // import '../../vendors/jquery/dist/jquery.min.js';
 // import '../../vendors/bootstrap/dist/js/bootstrap.min.js';
