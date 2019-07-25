@@ -1,24 +1,14 @@
-/* This css file is to over write bootstrap css
---------------------------------------------------------- /
-* Theme Name: Sufee-Admin Admin Template
-* Theme URI: http://demos.jeweltheme.com/Sufee-Admin/
-* Author: jewel_theme
-* Author URI: http://themeforest.net/user/jewel_theme/portfolio
-* Description:
-* Version: 1.0.0
-* License: GNU General Public License v2 or later
-* License URI: http://www.gnu.org/licenses/gpl-2.0.html
-* Tags: html, themplate, Sufee-Admin
---------------------------------------------------------- */
-/* Bootstrap */
 @charset "UTF-8";
 
 html,body
 {
     width: 100%;
-    margin: 0px;
-    padding: 0px;
-    /*overflow-x: hidden;*/
+    margin: 0;
+    height: 100%;
+    left: 0;
+    right: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 
@@ -252,7 +242,7 @@ html,body
     position: relative;
     display: block;
     height: inherit;
-    font-family: FontAwesome;
+    font-family: FontAwesome, serif;
     font-size: 10px;
     font-weight: 600;
     text-transform: uppercase;
@@ -376,7 +366,6 @@ html,body
     border-radius: 1px;
     -webkit-transition:left 0.15s ease-out;
     transition: left 0.15s ease-out;
-    border: 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); }
 .switch.switch-3d .switch-input:checked ~ .switch-handle {
     left: 16px; }
@@ -632,7 +621,6 @@ html,body
 
 .social-box {
     min-height: 160px;
-    margin-bottom:24px;
     margin-bottom: 1.5rem;
     text-align: center;
     background: #fff; }
@@ -717,7 +705,6 @@ html,body
     overflow: hidden; }
 .horizontal-bars.type-2 li i {
     display: inline-block;
-    margin-right:16px;
     margin-right: 1rem;
     margin-left: 5px;
     font-size: 18px;
@@ -726,7 +713,6 @@ html,body
     display: inline-block;
     width: auto;
     margin-top: -9px;
-    font-size:16px;
     font-size: 1rem;
     font-weight: normal;
     line-height: 40px;
@@ -802,7 +788,6 @@ html,body
     color: #fff; }
 .social.btn-sm {
     padding: 0 10px 0 0;
-    font-size:14px;
     font-size: 0.875rem;
     line-height: 1.5;
     border-radius: 0; }
@@ -811,7 +796,6 @@ html,body
 .social.btn {
     border-radius: 0; }
 .social i {
-    width:29px;
     width: 1.8125rem;
     line-height: 2; }
 .social.facebook {
@@ -937,7 +921,7 @@ html,body
 body {
     background: #f1f2f7;
     display: table;
-    font-family: 'Open Sans' !important;
+    font-family: 'Open Sans', serif !important;
     font-size: 16px;
     width: 100%; }
 
@@ -946,7 +930,7 @@ div[class*="col-"] {
 
 p {
     font-size: 16px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', serif;
     font-weight: 400;
     line-height: 24px;
     color: #878787; }
@@ -1031,7 +1015,7 @@ aside.left-panel {
 .navbar .navbar-brand {
     border-bottom: 1px solid #4e4e52;
     color: #f1f2f7 !important;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', serif;
     font-size: 22px;
     float: none;
     line-height: 50px;
@@ -1062,7 +1046,7 @@ aside.left-panel {
     color: #9496a1;
     clear: both;
     display: block;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', serif;
     font-size: 14px;
     font-weight: 700;
     line-height: 50px;
@@ -1084,7 +1068,7 @@ aside.left-panel {
     background: none !important;
     color: #c8c9ce !important;
     display: inline-block;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', serif;
     font-size: 14px;
     line-height: 30px;
     padding: 10px 0;
@@ -1104,7 +1088,7 @@ aside.left-panel {
     font-size: 14px; }
 .navbar .navbar-nav li > a .badge {
     border-radius: 0;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', serif;
     font-weight: 600;
     float: right;
     margin: 6px 0 0;
@@ -1116,7 +1100,7 @@ aside.left-panel {
 .navbar .navbar-nav li.menu-item-has-children a:before {
     content: "\f105";
     color: #c8c9ce;
-    font-family: 'Fontawesome';
+    font-family: 'Fontawesome', serif;
     font-size: 16px;
     position: absolute;
     top: 10px;
@@ -1170,7 +1154,7 @@ aside.left-panel {
     background: #a9d86e;
     border-radius: 50%;
     color: #fff;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', serif;
     font-size: 9px;
     font-weight: 700;
     float: right;
@@ -1478,7 +1462,7 @@ header .form-inline .search-form.close {
 .user-area .user-menu {
     background: #fff;
     border: none;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', serif;
     left: inherit !important;
     right: 0;
     top: 55px !important;
@@ -1508,7 +1492,7 @@ header .form-inline .search-form.close {
     background: #d9534f;
     border-radius: 50%;
     color: #fff;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', serif;
     font-size: 9px;
     font-weight: 700;
     float: right;
@@ -1561,11 +1545,9 @@ header .form-inline .search-form.close {
     width: 100%; }
 
 .card {
-    margin-bottom:24px;
     margin-bottom: 1.5rem;
     border-radius: 0; }
 .card h4 {
-    font-size:17.6px;
     font-size: 1.1rem; }
 .card .user-header .media img {
     border: 5px solid rgba(255, 255, 255, 0.3);
@@ -1575,7 +1557,6 @@ header .form-inline .search-form.close {
     display: block;
     float: left;
     width: 50px;
-    padding:12px 0;
     padding: 0.75rem 0;
     margin: 0 !important;
     color: #fff;
@@ -1585,13 +1566,11 @@ header .form-inline .search-form.close {
     border: 0;
     border-left: 1px solid rgba(120, 130, 140, 0.4); }
 .card .card-footer {
-    padding:10.4px 20px;
     padding: 0.65rem 1.25rem;
     background-color: #f0f3f5;
     border-top: 1px solid #c2cfd6; }
 .card .card-footer ul li {
     display: table-cell;
-    padding:0 16px;
     padding: 0 1rem;
     text-align: center; }
 
@@ -1654,8 +1633,8 @@ header .form-inline .search-form.close {
     width: inherit !important; }
 
 .social-buttons .only-text p button {
-    padding:0 8px;
-    padding: 0 0.5rem; }
+    padding: 0 0.5rem;
+}
 
 .buttons button {
     margin: 2px 0; }
@@ -1915,10 +1894,8 @@ header .form-inline .search-form.close {
     vertical-align: middle; }
 
 .input-group-addon {
-    padding:8px 12px;
     padding: 0.5rem 0.75rem;
     margin-bottom: 0;
-    font-size:16px;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.25;
@@ -1981,7 +1958,7 @@ header .form-inline .search-form.close {
     color: #666;
     background: rgba(0, 0, 0, 0.7);
     border: none;
-    color: #fff !important; }
+}
 
 .morris-hover-point {
     color: rgba(255, 255, 255, 0.8) !important; }
@@ -2048,7 +2025,6 @@ header .form-inline .search-form.close {
     text-align: center; }
 
 .stat-widget-two .stat-digit {
-    font-size:28px;
     font-size: 1.75rem;
     font-weight: 500;
     color: #373757; }

@@ -24,8 +24,6 @@ mix.setPublicPath('public')
     .extract([
         /* Extract packages from node_modules, only those used by front and
         backend, to vendor.js */
-        'jquery',
-        'bootstrap',
         'popper.js',
         'axios',
         'sweetalert2',

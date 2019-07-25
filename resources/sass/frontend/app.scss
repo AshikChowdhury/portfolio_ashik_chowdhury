@@ -1,13 +1,18 @@
-@import "../global";
+//@import "../global";
+//
+//// Fonts
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
+//
+//// Bootstrap Overrides
+//@import 'variables';
+//
+//// Bootstrap
+//@import '~bootstrap/scss/bootstrap';
+//
+//// Pages
+//@import 'pages/dashboard';
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i');
 
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
-
-// Bootstrap Overrides
-@import 'variables';
-
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
-
-// Pages
-@import 'pages/dashboard';
+@import '../../FrontendAssets/css/plugins.css';
+@import '../../FrontendAssets/css/style.css';
