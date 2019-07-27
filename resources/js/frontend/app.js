@@ -9,7 +9,7 @@
 // import '../plugins';
 import Vue from 'vue';
 
-window.Vue = Vue;
+// window.Vue = Vue;
 
 /**
  * The following block of code may be used to automatically register your
@@ -30,10 +30,11 @@ window.Vue = Vue;
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-const app = new Vue({
-    el: '#app'
-});
+// const app = new Vue({
+//     el: '#app'
+// });
 
-import '../../FrontendAssets/js/jquery'
-import '../../FrontendAssets/js/plugins'
-import '../../FrontendAssets/js/init'
+import '../../FrontendAssets/js/jquery.js'
+import '../../FrontendAssets/js/plugins.js'
+import '../../FrontendAssets/js/init.js'
+

@@ -49,8 +49,6 @@
     <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
     <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 
-
-    <!-- Mirrored from frenify.com/envato/marketify/html/arlo/1/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 14 Jul 2019 05:33:17 GMT -->
     <head>
 
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -60,12 +58,13 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-        <title>Arlo HTML 5 Template</title>
+        <title>Ashik</title>
 
         <!-- STYLES -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
         {{ style(mix('css/frontend.css')) }}
+
         <!-- /STYLES -->
 
     </head>
@@ -126,7 +125,8 @@
             <div class="arlo_tm_leftpart_wrap">
                 <div class="leftpart_inner">
                     <div class="logo_wrap">
-                        <a href="#"><img src="img/logo/desktop-logo.png" alt="" /></a>
+                        <a href="#"><img src="{{asset('img/frontend/img/logo/desktop-logo.png')}}" alt="" /></a>
+
                     </div>
                     <div class="menu_list_wrap">
                         <ul class="anchor_nav">
@@ -167,7 +167,7 @@
                                 <div class="content hero">
                                     <div class="inner_content">
                                         <div class="image_wrap">
-                                            <img src="img/hero/img.jpg" alt="" />
+                                            <img src="{{asset('img/frontend/img/hero/img.jpg')}}" alt="" />
                                         </div>
                                         <div class="name_holder">
                                             <h3>Alan <span>Michaelis</span></h3>
@@ -197,11 +197,11 @@
                                         <div class="leftbox">
                                             <div class="about_image_wrap parallax" data-relative-input="true">
                                                 <div class="image layer" data-depth="0.1">
-                                                    <img src="img/about/550x640.jpg" alt="" />
+                                                    <img src="{{asset('img/frontend/img/about/550x640.jpg')}}" alt="" />
                                                     <div class="inner" data-img-url="img/about/1.jpg"></div>
                                                 </div>
                                                 <div class="border layer" data-depth="0.2">
-                                                    <img src="img/about/550x640.jpg" alt="" />
+                                                    <img src="{{asset('img/frontend/img/about/550x640.jpg')}}" alt="" />
                                                     <div class="inner"></div>
                                                 </div>
                                             </div>
@@ -318,7 +318,7 @@
                                         <li>
                                             <div class="inner">
                                                 <div class="icon">
-                                                    <img class="svg" src="img/svg/camera-diaphragm.svg" alt="" />
+                                                    <img class="svg" src="{{asset('img/frontend/img/svg/camera-diaphragm.svg')}}" alt="" />
                                                 </div>
                                                 <div class="title_service">
                                                     <h3>Photography</h3>
@@ -331,7 +331,7 @@
                                         <li>
                                             <div class="inner">
                                                 <div class="icon">
-                                                    <img class="svg" src="img/svg/new-tab.svg" alt="" />
+                                                    <img class="svg" src="{{asset('img/frontend/img/svg/new-tab.svg')}}" alt="" />
                                                 </div>
                                                 <div class="title_service">
                                                     <h3>Web Design</h3>
@@ -344,7 +344,7 @@
                                         <li>
                                             <div class="inner">
                                                 <div class="icon">
-                                                    <img class="svg" src="img/svg/layers.svg" alt="" />
+                                                    <img class="svg" src="{{asset('img/frontend/img/svg/layers.svg')}}" alt="" />
                                                 </div>
                                                 <div class="title_service">
                                                     <h3>Branding</h3>
@@ -357,7 +357,7 @@
                                         <li>
                                             <div class="inner">
                                                 <div class="icon">
-                                                    <img class="svg" src="img/svg/share.svg" alt="" />
+                                                    <img class="svg" src="{{asset('img/frontend/img/svg/share.svg')}}" alt="" />
                                                 </div>
                                                 <div class="title_service">
                                                     <h3>Social Media</h3>
@@ -370,7 +370,7 @@
                                         <li>
                                             <div class="inner">
                                                 <div class="icon">
-                                                    <img class="svg" src="img/svg/adobe-illustrator.svg" alt="" />
+                                                    <img class="svg" src="{{asset('img/frontend/img/svg/adobe-illustrator.svg')}}" alt="" />
                                                 </div>
                                                 <div class="title_service">
                                                     <h3>Illustrator</h3>
@@ -383,7 +383,7 @@
                                         <li>
                                             <div class="inner">
                                                 <div class="icon">
-                                                    <img class="svg" src="img/svg/seo-performance-marketing-graphic.svg" alt="" />
+                                                    <img class="svg" src="{{asset('img/frontend/img/svg/seo-performance-marketing-graphic.svg')}}" alt="" />
                                                 </div>
                                                 <div class="title_service">
                                                     <h3>Marketing</h3>
@@ -423,7 +423,7 @@
                                             <li class="design">
                                                 <div class="entry arlo_tm_portfolio_animation_wrap" data-title="Aoc Productions" data-category="Design">
                                                     <a href="portfolio-single.html">
-                                                        <img src="img/portfolio/600x600.jpg" alt="" />
+                                                        <img src="{{asset('img/frontend/img/portfolio/600x600.jpg')}}" alt="" />
                                                         <div class="arlo_tm_portfolio_image_main" data-img-url="img/portfolio/1.jpg"></div>
                                                     </a>
                                                 </div>
@@ -431,7 +431,7 @@
                                             <li class="photography">
                                                 <div class="entry arlo_tm_portfolio_animation_wrap" data-title="Ind Hed" data-category="Photography">
                                                     <a href="portfolio-single-2.html">
-                                                        <img src="img/portfolio/600x600.jpg" alt="" />
+                                                        <img src="{{asset('img/frontend/img/portfolio/600x600.jpg')}}" alt="" />
                                                         <div class="arlo_tm_portfolio_image_main" data-img-url="img/portfolio/2.jpg"></div>
                                                     </a>
                                                 </div>
@@ -439,7 +439,7 @@
                                             <li class="development">
                                                 <div class="entry arlo_tm_portfolio_animation_wrap" data-title="Paper Mockup" data-category="Development">
                                                     <a href="portfolio-single-3.html">
-                                                        <img src="img/portfolio/600x600.jpg" alt="" />
+                                                        <img src="{{asset('img/frontend/img/portfolio/600x600.jpg')}}" alt="" />
                                                         <div class="arlo_tm_portfolio_image_main" data-img-url="img/portfolio/3.jpg"></div>
                                                     </a>
                                                 </div>
@@ -447,7 +447,7 @@
                                             <li class="photography">
                                                 <div class="entry arlo_tm_portfolio_animation_wrap" data-title="The Nordic" data-category="Photography">
                                                     <a href="portfolio-single-4.html">
-                                                        <img src="img/portfolio/600x600.jpg" alt="" />
+                                                        <img src="{{asset('img/frontend/img/portfolio/600x600.jpg')}}" alt="" />
                                                         <div class="arlo_tm_portfolio_image_main" data-img-url="img/portfolio/4.jpg"></div>
                                                     </a>
                                                 </div>
@@ -455,7 +455,7 @@
                                             <li class="design">
                                                 <div class="entry arlo_tm_portfolio_animation_wrap" data-title="Creatives Castle" data-category="Design">
                                                     <a href="portfolio-single-5.html">
-                                                        <img src="img/portfolio/600x600.jpg" alt="" />
+                                                        <img src="{{asset('img/frontend/img/portfolio/600x600.jpg')}}" alt="" />
                                                         <div class="arlo_tm_portfolio_image_main" data-img-url="img/portfolio/5.jpg"></div>
                                                     </a>
                                                 </div>
@@ -463,7 +463,7 @@
                                             <li class="photography">
                                                 <div class="entry arlo_tm_portfolio_animation_wrap" data-title="White Bag" data-category="Photography">
                                                     <a href="portfolio-single-6.html">
-                                                        <img src="img/portfolio/600x600.jpg" alt="" />
+                                                        <img src="{{asset('img/frontend/img/portfolio/600x600.jpg')}}" alt="" />
                                                         <div class="arlo_tm_portfolio_image_main" data-img-url="img/portfolio/6.jpg"></div>
                                                     </a>
                                                 </div>
@@ -588,8 +588,8 @@
                                         <li class="wow fadeInUp" data-wow-duration="1.2s">
                                             <div class="inner_list">
                                                 <div class="image_wrap">
-                                                    <img class="small" src="img/blog/500x350.jpg" alt="" />
-                                                    <img class="big" src="img/blog/1170x450.jpg" alt="" />
+                                                    <img class="small" src="{{asset('img/frontend/img/blog/500x350.jpg')}}" alt="" />
+                                                    <img class="big" src="{{asset('img/frontend/img/blog/1170x450.jpg')}}" alt="" />
                                                     <div class="news_image" data-url="img/blog/1.jpg"></div>
                                                     <a class="link_news" href="index-2.html"></a>
                                                 </div>
@@ -623,8 +623,8 @@
                                         <li class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.2s">
                                             <div class="inner_list">
                                                 <div class="image_wrap">
-                                                    <img class="small" src="img/blog/500x350.jpg" alt="" />
-                                                    <img class="big" src="img/blog/1170x450.jpg" alt="" />
+                                                    <img class="small" src="{{asset('img/frontend/img/blog/500x350.jpg')}}" alt="" />
+                                                    <img class="big" src="{{asset('img/frontend/img/blog/1170x450.jpg')}}" alt="" />
                                                     <div class="news_image" data-url="img/blog/2.jpg"></div>
                                                     <a class="link_news" href="index-2.html"></a>
                                                 </div>
@@ -658,8 +658,8 @@
                                         <li class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.4s">
                                             <div class="inner_list">
                                                 <div class="image_wrap">
-                                                    <img class="small" src="img/blog/500x350.jpg" alt="" />
-                                                    <img class="big" src="img/blog/1170x450.jpg" alt="" />
+                                                    <img class="small" src="{{asset('img/frontend/img/blog/500x350.jpg')}}" alt="" />
+                                                    <img class="big" src="{{asset('img/frontend/img/blog/1170x450.jpg')}}" alt="" />
                                                     <div class="news_image" data-url="img/blog/3.jpg"></div>
                                                     <a class="link_news" href="index-2.html"></a>
                                                 </div>
@@ -766,11 +766,14 @@
 
     <!-- SCRIPTS -->
     @stack('before-scripts')
-    {!! script(mix('js/frontend.js')) !!}
+{{--    {!! script(mix('js/frontend.js')) !!}--}}
+    {!! script(asset('js/frontend/jquery.js')) !!}
+    {!! script(asset('js/frontend/plugins.js'))!!}
+    {!! script(asset('js/frontend/init.js'))!!}
     @stack('after-scripts')
+
     <!-- /SCRIPTS -->
 
     </body>
 
-    <!-- Mirrored from frenify.com/envato/marketify/html/arlo/1/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 14 Jul 2019 05:33:47 GMT -->
     </html>
