@@ -1573,7 +1573,7 @@ particlesJS('particles-js',
           "nb_sides": 5
         },
         "image": {
-          "src": "../../../public/img/frontend/img/github.svg",
+          "src": "img/github.svg",
           "width": 100,
           "height": 100
         }
