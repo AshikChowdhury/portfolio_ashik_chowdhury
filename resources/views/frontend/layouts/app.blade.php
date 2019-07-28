@@ -198,7 +198,7 @@
                                             <div class="about_image_wrap parallax" data-relative-input="true">
                                                 <div class="image layer" data-depth="0.1">
                                                     <img src="{{asset('img/frontend/img/about/550x640.jpg')}}" alt="" />
-                                                    <div class="inner" data-img-url="img/about/1.jpg"></div>
+                                                    <div class="inner" data-img-url="{{asset('img/frontend/img/about/1.jpg')}}"></div>
                                                 </div>
                                                 <div class="border layer" data-depth="0.2">
                                                     <img src="{{asset('img/frontend/img/about/550x640.jpg')}}" alt="" />
@@ -424,7 +424,7 @@
                                                 <div class="entry arlo_tm_portfolio_animation_wrap" data-title="Aoc Productions" data-category="Design">
                                                     <a href="portfolio-single.html">
                                                         <img src="{{asset('img/frontend/img/portfolio/600x600.jpg')}}" alt="" />
-                                                        <div class="arlo_tm_portfolio_image_main" data-img-url="img/portfolio/1.jpg"></div>
+                                                        <div class="arlo_tm_portfolio_image_main" data-img-url="{{asset('img/frontend/img/portfolio/1.jpg')}}"></div>
                                                     </a>
                                                 </div>
                                             </li>
@@ -432,7 +432,7 @@
                                                 <div class="entry arlo_tm_portfolio_animation_wrap" data-title="Ind Hed" data-category="Photography">
                                                     <a href="portfolio-single-2.html">
                                                         <img src="{{asset('img/frontend/img/portfolio/600x600.jpg')}}" alt="" />
-                                                        <div class="arlo_tm_portfolio_image_main" data-img-url="img/portfolio/2.jpg"></div>
+                                                        <div class="arlo_tm_portfolio_image_main" data-img-url="{{asset('img/frontend/img/portfolio/2.jpg')}}"></div>
                                                     </a>
                                                 </div>
                                             </li>
@@ -440,7 +440,7 @@
                                                 <div class="entry arlo_tm_portfolio_animation_wrap" data-title="Paper Mockup" data-category="Development">
                                                     <a href="portfolio-single-3.html">
                                                         <img src="{{asset('img/frontend/img/portfolio/600x600.jpg')}}" alt="" />
-                                                        <div class="arlo_tm_portfolio_image_main" data-img-url="img/portfolio/3.jpg"></div>
+                                                        <div class="arlo_tm_portfolio_image_main" data-img-url="{{asset('img/frontend/img/portfolio/3.jpg')}}"></div>
                                                     </a>
                                                 </div>
                                             </li>
@@ -448,7 +448,7 @@
                                                 <div class="entry arlo_tm_portfolio_animation_wrap" data-title="The Nordic" data-category="Photography">
                                                     <a href="portfolio-single-4.html">
                                                         <img src="{{asset('img/frontend/img/portfolio/600x600.jpg')}}" alt="" />
-                                                        <div class="arlo_tm_portfolio_image_main" data-img-url="img/portfolio/4.jpg"></div>
+                                                        <div class="arlo_tm_portfolio_image_main" data-img-url="{{asset('img/frontend/img/portfolio/4.jpg')}}"></div>
                                                     </a>
                                                 </div>
                                             </li>
@@ -456,7 +456,7 @@
                                                 <div class="entry arlo_tm_portfolio_animation_wrap" data-title="Creatives Castle" data-category="Design">
                                                     <a href="portfolio-single-5.html">
                                                         <img src="{{asset('img/frontend/img/portfolio/600x600.jpg')}}" alt="" />
-                                                        <div class="arlo_tm_portfolio_image_main" data-img-url="img/portfolio/5.jpg"></div>
+                                                        <div class="arlo_tm_portfolio_image_main" data-img-url="{{asset('img/frontend/img/portfolio/5.jpg')}}"></div>
                                                     </a>
                                                 </div>
                                             </li>
@@ -464,7 +464,7 @@
                                                 <div class="entry arlo_tm_portfolio_animation_wrap" data-title="White Bag" data-category="Photography">
                                                     <a href="portfolio-single-6.html">
                                                         <img src="{{asset('img/frontend/img/portfolio/600x600.jpg')}}" alt="" />
-                                                        <div class="arlo_tm_portfolio_image_main" data-img-url="img/portfolio/6.jpg"></div>
+                                                        <div class="arlo_tm_portfolio_image_main" data-img-url="{{asset('img/frontend/img/portfolio/6.jpg')}}"></div>
                                                     </a>
                                                 </div>
                                             </li>
@@ -590,7 +590,7 @@
                                                 <div class="image_wrap">
                                                     <img class="small" src="{{asset('img/frontend/img/blog/500x350.jpg')}}" alt="" />
                                                     <img class="big" src="{{asset('img/frontend/img/blog/1170x450.jpg')}}" alt="" />
-                                                    <div class="news_image" data-url="img/blog/1.jpg"></div>
+                                                    <div class="news_image" data-url="{{asset('img/frontend/img/blog/1.jpg')}}"></div>
                                                     <a class="link_news" href="index-2.html"></a>
                                                 </div>
                                                 <div class="definitions_wrap">
@@ -625,7 +625,7 @@
                                                 <div class="image_wrap">
                                                     <img class="small" src="{{asset('img/frontend/img/blog/500x350.jpg')}}" alt="" />
                                                     <img class="big" src="{{asset('img/frontend/img/blog/1170x450.jpg')}}" alt="" />
-                                                    <div class="news_image" data-url="img/blog/2.jpg"></div>
+                                                    <div class="news_image" data-url="{{asset('img/frontend/img/blog/2.jpg')}}"></div>
                                                     <a class="link_news" href="index-2.html"></a>
                                                 </div>
                                                 <div class="definitions_wrap">
@@ -660,7 +660,7 @@
                                                 <div class="image_wrap">
                                                     <img class="small" src="{{asset('img/frontend/img/blog/500x350.jpg')}}" alt="" />
                                                     <img class="big" src="{{asset('img/frontend/img/blog/1170x450.jpg')}}" alt="" />
-                                                    <div class="news_image" data-url="img/blog/3.jpg"></div>
+                                                    <div class="news_image" data-url="{{asset('img/frontend/img/blog/3.jpg')}}"></div>
                                                     <a class="link_news" href="index-2.html"></a>
                                                 </div>
                                                 <div class="definitions_wrap">

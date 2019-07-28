@@ -34,7 +34,7 @@ import Vue from 'vue';
 //     el: '#app'
 // });
 
-import '../../FrontendAssets/js/jquery.js'
-import '../../FrontendAssets/js/plugins.js'
-import '../../FrontendAssets/js/init.js'
+//import '../../FrontendAssets/js/jquery.js'
+//import '../../FrontendAssets/js/plugins.js'
+//import '../../FrontendAssets/js/init.js'
 
