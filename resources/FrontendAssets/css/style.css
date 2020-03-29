@@ -56,10 +56,10 @@ img.svg{
 	height: auto;
 	clear: both;
 	float: left;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
-			box-sizing: border-box; /* Opera/IE 8+ */ 
+			box-sizing: border-box; /* Opera/IE 8+ */
 }
 #ripple{
 	position: relative;
@@ -96,14 +96,14 @@ img.svg{
   background-color: #fff;
   z-index: 9999999;
   height: 100%;
-  width: 100%;	
-	
+  width: 100%;
+
   -webkit-transition: .2s all ease;
   -o-transition: .2s all ease;
   transition: .2s all ease;
   -webkit-transition-delay: .5s;
   -o-transition-delay: .5s;
-  transition-delay: .5s; }  
+  transition-delay: .5s; }
 .arlo_tm_preloader .spinner_wrap{
 	position: absolute;
 	top: 50%;
@@ -122,20 +122,20 @@ img.svg{
     height: 50%;
     width: 100%;
     background-color: #041230;
-	
+
     -webkit-transition: .7s all ease;
     -o-transition: .7s all ease;
     transition: .7s all ease;
 }
 .arlo_tm_preloader:before{
     top: 0;
-    left: 0; 
+    left: 0;
 }
 .arlo_tm_preloader:after{
     bottom: 0;
-	left: 0; 
+	left: 0;
 }
-.arlo_tm_preloader.loaded:before, 
+.arlo_tm_preloader.loaded:before,
 .arlo_tm_preloader.loaded:after{height: 0%;}
 
 /*---------------------------------------------------*/
@@ -150,13 +150,13 @@ img.svg{
 	left: 0px;
 	background-color: #041230;
 	z-index: 100;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
-	
+
 }
 .arlo_tm_leftpart_wrap.hide{left: -300px;}
 .arlo_tm_leftpart_wrap.opened{left: -300px;}
@@ -168,7 +168,7 @@ img.svg{
 	text-align: center;
 	margin-bottom: 50px;
 	border-bottom: 1px solid rgba(255,255,255,.1);
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -179,7 +179,7 @@ img.svg{
 	clear: both;
 	float: left;
 	padding: 0px 20px 0px 60px;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -199,8 +199,8 @@ img.svg{
 	text-transform: uppercase;
 	position: relative;
 	display: inline-block;
-	padding-bottom: 19px;
-	
+	padding-bottom: 12px;
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -217,7 +217,7 @@ img.svg{
 	transform: translateY(-50%);
 	left: 100%;
 	margin-left: 10px;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -237,8 +237,8 @@ img.svg{
 	float: left;
 	position: relative;
 	left: -5px;
-	margin-bottom: 10px;
-	
+	margin-bottom: -10px;
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -255,7 +255,7 @@ img.svg{
 .arlo_tm_leftpart_wrap .leftpart_bottom .social_wrap ul li a{
 	text-decoration: none;
 	color: #fff;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -275,7 +275,7 @@ img.svg{
 	display: inline-block;
 	text-decoration: none;
 	z-index: 200;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -288,7 +288,7 @@ img.svg{
 	transform: rotate(0deg);
 	position: absolute;
 	left: 6px;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -301,13 +301,13 @@ img.svg{
 	height: auto;
 	float: left;
 	padding-left: 300px;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -319,7 +319,7 @@ img.svg{
 	height: auto;
 	clear: both;
 	float: left;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -330,7 +330,7 @@ img.svg{
 	clear: both;
 	float: left;
 	margin-bottom: 100px;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -341,7 +341,7 @@ img.svg{
 	clear: both;
 	float: left;
 	position: relative;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -397,7 +397,7 @@ img.svg{
 	float: left;
 	position: relative;
 	z-index: 25;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -414,7 +414,7 @@ img.svg{
 	text-align: center;
 	width: 100%;
 	padding: 0px 20px;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -444,7 +444,7 @@ img.svg{
 	width: 100%;
 	height: auto;
 	float: left;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -511,7 +511,7 @@ img.svg{
 	text-align: left;
 	padding-bottom: 100px;
 	position: relative;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -545,7 +545,7 @@ img.svg{
 	clear: both;
 	float: left;
 	background-color: #fff;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -558,7 +558,7 @@ img.svg{
 	float: left;
 	text-align: left;
 	margin-bottom: 120px;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -591,7 +591,7 @@ img.svg{
 	clear: both;
 	float: left;
 	background-color: #fff;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -603,7 +603,7 @@ img.svg{
 	float: left;
 	text-align: left;
 	margin-bottom: 120px;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -638,10 +638,10 @@ img.svg{
 	padding-bottom: 122px;
 	position: relative;
 	margin-top: -6px;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
-			box-sizing: border-box; /* Opera/IE 8+ */ 
+			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_about_wrap .author_wrap{
 	width: 100%;
@@ -651,21 +651,21 @@ img.svg{
 	position: relative;
 	display: flex;
 	align-items: center;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
-			box-sizing: border-box; /* Opera/IE 8+ */ 
+			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_about_wrap .leftbox{
 	width: 35%;
 	float: left;
 	height: auto;
 	padding-right: 40px;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
-	
+
 }
 .arlo_tm_about_wrap .leftbox .about_image_wrap{position: relative;}
 .arlo_tm_about_wrap .leftbox .about_image_wrap .image{
@@ -695,10 +695,10 @@ img.svg{
 	width: 65%;
 	float: right;
 	padding: 0px 0px 0px 65px;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
-			box-sizing: border-box; /* Opera/IE 8+ */ 
+			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_about_wrap .subtitle{
 	width: 100%;
@@ -721,7 +721,7 @@ img.svg{
 	clear: both;
 	float: left;
 	margin-bottom: 13px;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -749,7 +749,7 @@ img.svg{
 	text-decoration: none;
 	color: #000;
     position: relative;
-	
+
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -ms-transition: all .3s ease;
@@ -762,7 +762,7 @@ img.svg{
 	height: auto;
 	clear: both;
 	float: left;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -811,7 +811,7 @@ img.svg{
 	height: auto;
 	clear: both;
 	float: left;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -828,7 +828,7 @@ img.svg{
 	clear: both;
 	float: left;
 	padding-right:0px;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -839,7 +839,7 @@ img.svg{
 	clear: both;
 	float: right;
 	padding-left: 65px;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -852,7 +852,7 @@ img.svg{
 	margin-bottom: 10px;
 	position: relative;
 	margin-top: -4px;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -918,7 +918,7 @@ img.svg{
 	-webkit-animation: arlo_tm_expand 3s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* Safari 4+ */
 	-moz-animation:    arlo_tm_expand 3s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* Fx 5+ */
 	animation:         arlo_tm_expand 3s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* IE 10+ */
-	width:100%;	
+	width:100%;
 }
 .arlo_tm_progress .arlo_tm_bar_bg .arlo_tm_bar{
 	height:100%;
@@ -928,7 +928,7 @@ img.svg{
 }
 .arlo_tm_progress_wrap[data-strip="on"] .arlo_tm_progress .arlo_tm_bar{
 	background-image: linear-gradient(-45deg, rgba(255, 255, 255, 1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 75%, transparent 75%, transparent);
-	
+
 	-webkit-animation: arlo_tm_bar_move 4s linear infinite;
 	-moz-animation: arlo_tm_bar_move 4s linear infinite;
 	animation: arlo_tm_bar_move 4s linear infinite;
@@ -948,7 +948,7 @@ img.svg{
 	height: auto;
 	clear: both;
 	float: left;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -971,10 +971,10 @@ img.svg{
 	background-color: #fff;
 	margin-bottom: 70px;
 	text-align: left;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
-			box-sizing: border-box; /* Opera/IE 8+ */ 
+			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_services_wrap .arlo_tm_title_holder_wrap{margin-bottom: 93px;}
 .arlo_tm_services_wrap .list_wrap{
@@ -982,10 +982,10 @@ img.svg{
 	height: auto;
 	clear: both;
 	float: left;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
-			box-sizing: border-box; /* Opera/IE 8+ */ 
+			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_services_wrap .list_wrap ul{
 	margin: 0px 0px 0px -30px;
@@ -996,10 +996,10 @@ img.svg{
 	float: left;
 	width: 33.3333%;
 	padding-left: 30px;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
-			box-sizing: border-box; /* Opera/IE 8+ */ 
+			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_services_wrap .list_wrap ul li .inner{
 	width: 100%;
@@ -1010,16 +1010,16 @@ img.svg{
 	box-shadow: 0 0 20px rgba(0,0,0,.1);
 	padding: 40px 40px 33px 40px;
 	top: 0px;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
-			box-sizing: border-box; /* Opera/IE 8+ */ 
+			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_services_wrap .list_wrap ul li .inner:hover{top: -5px;}
 .arlo_tm_services_wrap .list_wrap ul li .icon{margin-bottom: 21px;}
@@ -1046,7 +1046,7 @@ img.svg{
 	height: auto;
 	clear: both;
 	float: left;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -1056,7 +1056,7 @@ img.svg{
 	list-style-type:none;
 	width:100%;
 	margin: 0px;
-	
+
 	-webkit-perspective: 500px;
 	-moz-perspective: 500px;
 	perspective: 500px;
@@ -1066,7 +1066,7 @@ img.svg{
 	float:left;
 	text-align:center;
 	margin: 0px;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -1078,7 +1078,7 @@ img.svg{
 	float: left;
 	position: relative;
 	padding: 90px 15px 93px 15px;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -1122,10 +1122,10 @@ img.svg{
 	float: left;
 	padding-bottom: 70px;
 	background-color: #fff;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
-			box-sizing: border-box; /* Opera/IE 8+ */ 
+			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_portfolio_wrapper_all .arlo_tm_button{text-align: center;}
 .arlo_tm_portfolio_wrap{
@@ -1133,10 +1133,10 @@ img.svg{
 	height: auto;
 	clear: both;
 	float: left;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
-			box-sizing: border-box; /* Opera/IE 8+ */ 
+			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_portfolio_filter{
 	width:100%;
@@ -1145,7 +1145,7 @@ img.svg{
 	list-style-type:none;
 	margin: 0px 0px 13px 0px;
 	display: inline-block;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -1163,7 +1163,7 @@ img.svg{
 	display: inline-block;
 	margin-bottom: 10px;
 	position: relative;
-	
+
 	-webkit-transition: all .1s ease;
 	   -moz-transition: all .1s ease;
 	    -ms-transition: all .1s ease;
@@ -1177,7 +1177,7 @@ img.svg{
 .arlo_tm_portfolio_list{
 	list-style-type:none;
 	margin: 0px 0px 0px -30px;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -1188,7 +1188,7 @@ img.svg{
 	position:relative;
 	margin: 0px 0px 30px 0px;
 	padding-left: 30px;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -1242,20 +1242,20 @@ img.svg{
 	height: auto;
 	clear: both;
 	float: left;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
-			box-sizing: border-box; /* Opera/IE 8+ */ 
+			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_testimonial_wrap{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
-			box-sizing: border-box; /* Opera/IE 8+ */ 
+			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_testimonial_wrap .carousel_wrap{
 	width: 100%;
@@ -1265,10 +1265,10 @@ img.svg{
 	clear: both;
 	text-align: center;
 	cursor: e-resize;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
-			box-sizing: border-box; /* Opera/IE 8+ */ 
+			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_testimonial_wrap .carousel_wrap ul{
 	margin: 0px;
@@ -1281,10 +1281,10 @@ img.svg{
 	clear: both;
 	float: left;
 	position: relative;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
-			box-sizing: border-box; /* Opera/IE 8+ */ 
+			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_testimonial_wrap .quotebox_wrap{
 	clear: both;
@@ -1317,7 +1317,7 @@ img.svg{
 	clear: both;
 	float: left;
 	position: relative;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -1373,7 +1373,7 @@ img.svg{
 	float: left;
 	position: relative;
 	z-index: 25;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -1391,7 +1391,7 @@ img.svg{
 	height: auto;
 	clear: both;
 	float: left;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -1405,7 +1405,7 @@ img.svg{
 	float: left;
 	width: 33.3333%;
 	padding-left: 30px;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -1417,7 +1417,7 @@ img.svg{
 	clear: both;
 	float: left;
 	position: relative;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -1431,10 +1431,10 @@ img.svg{
 	padding-bottom: 70px;
 	background-color: #f6f7fd;
 	margin-bottom: 100px;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
-			box-sizing: border-box; /* Opera/IE 8+ */ 
+			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_news_wrap .link_news{
 	position: absolute;
@@ -1475,7 +1475,7 @@ img.svg{
 	text-transform: uppercase;
 	position: relative;
 	margin-left: 23px;
-	
+
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -ms-transition: all .3s ease;
@@ -1505,7 +1505,7 @@ img.svg{
 	color: #041230;
 	font-size: 22px;
 	display: block;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -1548,18 +1548,18 @@ img.svg{
 #arlo_tm_popup_blog{
 	opacity: 0;
 	visibility: hidden;
-	
+
 	width: 100%;
 	height: 100vh;
 	position: fixed;
 	background-color: rgba(255,255,255,1);
-	padding: 50px 0px;	
+	padding: 50px 0px;
 	z-index: 99999999;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
-	
+
 	-webkit-transition: all .2s ease;
 	   -moz-transition: all .2s ease;
 	    -ms-transition: all .2s ease;
@@ -1601,7 +1601,7 @@ img.svg{
     text-transform: uppercase;
     position: relative;
     margin-left: 23px;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -1670,7 +1670,7 @@ img.svg{
 	clear: both;
 	float: left;
 	padding-bottom: 5px;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -1690,7 +1690,7 @@ img.svg{
     position: relative;
     font-family: "Montserrat";
     font-weight: 600;
-	
+
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -ms-transition: all .3s ease;
@@ -1746,7 +1746,7 @@ img.svg{
 	clear: both;
 	float: left;
 	background-color: #fff;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -1756,17 +1756,17 @@ img.svg{
 	height: auto;
 	float: left;
 	padding-right: 40px;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
-			box-sizing: border-box; /* Opera/IE 8+ */		
+			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_contact_wrap_all .leftbox .short_info_wrap{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -1793,16 +1793,16 @@ img.svg{
 	width: 60%;
 	height: auto;
 	float: right;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
-			box-sizing: border-box; /* Opera/IE 8+ */		
+			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_contact_wrap{
 	max-width: 830px;
 	height: auto;
 	margin: 0px auto;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -1823,7 +1823,7 @@ img.svg{
 	height: auto;
 	clear: both;
 	float: left;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -1907,10 +1907,10 @@ img.svg{
 	text-align: left;
 	background-color: #041230;
 	padding: 50px 0px;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
-			box-sizing: border-box; /* Opera/IE 8+ */ 
+			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_footer_wrap p{color: #fff;}
 .arlo_tm_footer_wrap p a{
@@ -1937,10 +1937,10 @@ img.svg{
     padding: 22px;
     border-radius: 3px;
     display: inline-block;
-	
+
 	opacity: 0;
 	visibility: hidden;
-	
+
 	-webkit-transition: all .5s ease;
 	   -moz-transition: all .5s ease;
 	    -ms-transition: all .5s ease;
@@ -2042,7 +2042,7 @@ img.svg{
 	clear: both;
 	float: left;
 	position: relative;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -2081,7 +2081,7 @@ img.svg{
 	float: left;
 	position: relative;
 	z-index: 30;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -2099,7 +2099,7 @@ img.svg{
 	text-align: center;
 	width: 100%;
 	padding: 0px 20px;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -2160,7 +2160,7 @@ img.svg{
 	clear: both;
 	float: left;
 	background-color: #fff;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -2189,11 +2189,11 @@ img.svg{
 	padding-left: 40px;
 	position: relative;
 	top: 0px;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -2225,7 +2225,7 @@ img.svg{
 	text-decoration: none;
 	color: #000;
 	font-family: "Montserrat";
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -2264,7 +2264,7 @@ img.svg{
 	clear: both;
 	float: left;
 	padding-top: 150px;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -2285,7 +2285,7 @@ img.svg{
 	display: flex;
 	flex-direction: row;
 	margin-bottom: 100px;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -2295,7 +2295,7 @@ img.svg{
 	height: auto;
 	float: left;
 	padding-right: 50px;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -2331,7 +2331,7 @@ img.svg{
 	clear: both;
 	float: left;
 	margin-bottom: 50px;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -2356,7 +2356,7 @@ img.svg{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -2366,7 +2366,7 @@ img.svg{
 	color: #000000;
 	font-weight: 600;
 	font-size: 16px;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -2399,7 +2399,7 @@ img.svg{
 	justify-content: space-between;
 	background-color: #041230;
 	border-bottom: 1px solid rgba(255,255,255,.1);
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -2439,7 +2439,7 @@ img.svg{
     transition-property: transform;
     transition-duration: 0.15s;
     transition-timing-function: ease;
-	
+
 	-webkit-border-radius: 4px;
 	   -moz-border-radius: 4px;
 	        border-radius: 4px;
@@ -2492,7 +2492,7 @@ img.svg{
 .arlo_tm_trigger .hamburger .hamburger-inner{
 	background-color: #fff;
 	width: 30px;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -2509,17 +2509,17 @@ img.svg{
 	display: none;
 	border-bottom: 1px solid rgba(0,0,0,.09);
 	border-top: 1px solid rgba(0,0,0,.09);
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
-			box-sizing: border-box; /* Opera/IE 8+ */	
+			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_mobile_menu_wrap .mob_menu{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -2601,4 +2601,4 @@ img.svg{
 	.arlo_tm_portfolio_list{margin: 0px;}
 	.arlo_tm_portfolio_list > li{width: 100%;padding-left: 0px;}
 	.arlo_tm_counter_wrap{padding: 94px 0px 48px 0px;}
-}	
+}

@@ -12538,9 +12538,9 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /opt/lampp/htdocs/portfolio_ashik_chowdhury/resources/js/frontend/app.js */"./resources/js/frontend/app.js");
-__webpack_require__(/*! /opt/lampp/htdocs/portfolio_ashik_chowdhury/resources/sass/frontend/app.scss */"./resources/sass/frontend/app.scss");
-module.exports = __webpack_require__(/*! /opt/lampp/htdocs/portfolio_ashik_chowdhury/resources/sass/backend/app.scss */"./resources/sass/backend/app.scss");
+__webpack_require__(/*! C:\laragon\www\portfolio_ashik_chowdhury\resources\js\frontend\app.js */"./resources/js/frontend/app.js");
+__webpack_require__(/*! C:\laragon\www\portfolio_ashik_chowdhury\resources\sass\frontend\app.scss */"./resources/sass/frontend/app.scss");
+module.exports = __webpack_require__(/*! C:\laragon\www\portfolio_ashik_chowdhury\resources\sass\backend\app.scss */"./resources/sass/backend/app.scss");
 
 
 /***/ })
