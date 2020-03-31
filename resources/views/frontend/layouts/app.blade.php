@@ -205,42 +205,42 @@
                                         </div>
                                         <div class="rightbox">
                                             <div class="arlo_tm_mini_title_holder">
-                                                <h4>I'm Alan Michaelis and <span class="arlo_tm_animation_text_word"></span></h4>
+                                                <h4>I'm Ashik Chowdhury and <span class="arlo_tm_animation_text_word"></span></h4>
                                             </div>
                                             <div class="definition">
-                                                <p>Hi! My name is <strong>Alan Michaelis</strong>. I am a Web Developer, and I'm very passionate and dedicated to my work. With 20 years experience as a professional Web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration to concept and execution, but I find the most satisfaction in seeing the finished product do everything for you that it was created to do.</p>
+                                                <p>Hi! My name is <strong>Ashik Chowdhury</strong>. I am a Web Developer, and I'm very passionate and dedicated to my work. With 3 years experience as a professional Web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration to concept and execution, but I find the most satisfaction in seeing the finished product do everything for you that it was created to do.</p>
                                             </div>
                                             <div class="about_short_contact_wrap">
                                                 <ul>
                                                     <li>
-                                                        <span><label>Birthday:</label> 01.07.1990</span>
+                                                        <span><label>Birthday:</label> 30.12.1995</span>
                                                     </li>
                                                     <li>
-                                                        <span><label>Age:</label> 28</span>
+                                                        <span><label>Age:</label> 24</span>
                                                     </li>
                                                     <li>
-                                                        <span><label>City:</label> New York, USA</span>
+                                                        <span><label>City:</label> Dhaka, Bangladesh</span>
                                                     </li>
                                                     <li>
-                                                        <span><label>Interests:</label> Soccer, UFC</span>
+                                                        <span><label>Interests:</label> Cricket, Cycling</span>
                                                     </li>
                                                     <li>
-                                                        <span><label>Study:</label> Chicago University</span>
+                                                        <span><label>Study:</label> BRAC University</span>
                                                     </li>
                                                     <li>
                                                         <span><label>Degree:</label> Master</span>
                                                     </li>
                                                     <li>
-                                                        <span><label>Website:</label> <a href="#">www.mywebsite.com</a></span>
+                                                        <span><label>Website:</label> <a href="#">www.imashik.me</a></span>
                                                     </li>
                                                     <li>
-                                                        <span><label>Mail:</label> <a href="mailto:example@gmail.com">mymail&#64;gmail.com</a></span>
+                                                        <span><label>Mail:</label> <a href="mailto:ashikbracu@gmail.com">ashikbracu&#64;gmail.com</a></span>
                                                     </li>
                                                     <li>
-                                                        <span><label>Phone:</label> <a href="#">+77 022 177 05 05</a></span>
+                                                        <span><label>Phone:</label> <a href="#">+88 016 754 211 47</a></span>
                                                     </li>
                                                     <li>
-                                                        <span><label>Twitter:</label> <a href="#">&#64;myusername</a></span>
+                                                        <span><label>Twitter:</label> <a href="#">&#64;ashikchow</a></span>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -277,7 +277,7 @@
                                         <div class="progress_bar_wrap_total">
                                             <div class="arlo_tm_progress_wrap" data-size="small" data-round="c" data-strip="off">
                                                 <div class="arlo_tm_progress" data-value="95" data-color="#000">
-                                                    <span><span class="label">Wordpress - <span class="experience">5 years of experience</span></span><span class="number">95%</span></span>
+                                                    <span><span class="label">Laravel - <span class="experience">2 years of experience</span></span><span class="number">95%</span></span>
                                                     <div class="arlo_tm_bar_bg"><div class="arlo_tm_bar_wrap"><div class="arlo_tm_bar"></div></div></div>
                                                 </div>
                                                 <div class="arlo_tm_progress" data-value="85" data-color="#000">
@@ -289,7 +289,7 @@
                                                     <div class="arlo_tm_bar_bg"><div class="arlo_tm_bar_wrap"><div class="arlo_tm_bar"></div></div></div>
                                                 </div>
                                                 <div class="arlo_tm_progress" data-value="90" data-color="#000">
-                                                    <span><span class="label">After Effect - <span class="experience">6 years of experience</span></span><span class="number">90%</span></span>
+                                                    <span><span class="label">Adobe Photoshop - <span class="experience">6 years of experience</span></span><span class="number">90%</span></span>
                                                     <div class="arlo_tm_bar_bg"><div class="arlo_tm_bar_wrap"><div class="arlo_tm_bar"></div></div></div>
                                                 </div>
                                             </div>
@@ -710,10 +710,10 @@
                                         </div>
                                         <div class="short_info_wrap">
                                             <ul>
-                                                <li><p><label>Address:</label><span>123 Qwerty Avenue NYC, USA</span></p></li>
-                                                <li><p><label>Email:</label><span><a href="mailto:example@gmail.com">example@gmail.com</a></span></p></li>
-                                                <li><p><label>Phone:</label><span>+77 022 177 05 05</span></p></li>
-                                                <li><p><label>Website:</label><span><a href="mailto:example@gmail.com">www.yourdomain.com</a></span></p></li>
+                                                <li><p><label>Address:</label><span>Road 56, Gulshan 2, Dhaka</span></p></li>
+                                                <li><p><label>Email:</label><span><a href="mailto:example@gmail.com">ashikbracu@gmail.com</a></span></p></li>
+                                                <li><p><label>Phone:</label><span>+88 016 754 211 47</span></p></li>
+                                                <li><p><label>Website:</label><span><a href="mailto:example@gmail.com">www.imashik.me</a></span></p></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -743,7 +743,7 @@
                             </div>
                             <div class="arlo_tm_footer_wrap">
                                 <div class="container">
-                                    <p>&copy; Copyright 2019. All Rights are Reserved.</p>
+                                    <p>&copy; Copyright {{ now()->year }}. All Rights are Reserved.</p>
                                 </div>
                             </div>
                         </div>
