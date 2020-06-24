@@ -228,7 +228,7 @@
                                                         <span><label>Study:</label> BRAC University</span>
                                                     </li>
                                                     <li>
-                                                        <span><label>Degree:</label> Master</span>
+                                                        <span><label>Degree:</label> M.Sc</span>
                                                     </li>
                                                     <li>
                                                         <span><label>Website:</label> <a href="#">www.imashik.me</a></span>
@@ -771,5 +771,3 @@
     <!-- /SCRIPTS -->
 
     </body>
-
-    </html>
